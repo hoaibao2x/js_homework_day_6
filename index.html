@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+    <!-- Main css -->
+    <link rel="stylesheet" href="./style/main.css">
+
+    <title>Document</title>
+</head>
+
+<body class="container">
+
+    <!-- Bài 1 -->
+    <div class="w-50 mx-auto">
+        <form>
+        <div class="card">
+            <div class="card-header text-center">
+                Tìm số nguyên dương nhỏ nhất
+            </div>
+            <div class="card-body">
+                <div class="alert alert-success">
+                    <p id="inSoNguyenDuong"></p>
+                </div>
+            </div>
+        </div>
+        </form>
+    </div>
+
+    <!-- Bài 2 -->
+    <div class="w-50 mx-auto">
+        <form>
+            <div class="card">
+                <div class="card-header text-center">
+                    Tính tổng
+                </div>
+                <div class="card-body mx-auto">
+                    <div class="form-group">
+                        <label for="inputX">Nhập vào x:</label>
+                        <input type="number" id="inputX" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="inputN">Nhập vào n:</label>
+                        <input type="number" id="inputN" class="form-control">
+                    </div>
+                </div>
+                <div class="card-footer text-center">
+                    <div class="form-group">
+                        <button class="btn btn-success" type="button" onclick="tinhTong()">Tính tổng</button>
+                        <button class="btn btn-danger" type="reset">Nhập lại</button>
+                    </div>
+                    <div class="alert alert-primary">
+                        <p id="inTong"></p>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <!-- Bài 3 -->
+    <div class="w-50 mx-auto">
+        <form>
+            <div class="card">
+                <div class="card-header text-center">
+                    Tính giai thừa
+                </div>
+                <div class="card-body">
+                    <div class="form-group">
+                        <label for="nhapSoNguyen">Nhập số nguyên dương bất kì:</label>
+                        <input type="number" class="form-control" id="nhapSoNguyen">
+                    </div>
+                </div>
+                <div class="card-footer text-center">
+                    <div class="form-group">
+                        <button class="btn btn-success" type="button" onclick="tinhGiaiThua()">Tính toán</button>
+                        <button class="btn btn-danger" type="reset">Nhập lại</button>
+                    </div>
+                    <div class="alert alert-primary">
+                        <p id="inGiaiThua"></p>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <!-- Bài 4 -->
+    <div class="w-50 mx-auto">
+        <form>
+            <div class="card">
+                <div class="card-header text-center">
+                    In div chẵn - div lẻ
+                </div>
+                <div class="card-body text-center">
+                    <div class="form-group">
+                        <button class="btn btn-success" type="button" onclick="inChanLe()">One click - More funny 😎</button>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <div class="alert alert-secondary">
+                        <div id="inKetQua"></div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+    <script src="./js/main.js"></script>
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
